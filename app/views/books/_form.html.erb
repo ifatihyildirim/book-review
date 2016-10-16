@@ -1,0 +1,8 @@
+<%= simple_form_for @book, html: { :multipart => true } do |b| %>
+  <%= select_tag(:category_id, options_for_select(@categories), :prompt => "Select a category.") %>
+  <%= b.file_field :book_img %>
+  <%= b.input :title, label: "Book Title" %>
+  <%= b.input :description %>
+  <%= b.input :author %>
+  <%= b.button :submit, :class => "btn-custom2" %>
+<% end %>

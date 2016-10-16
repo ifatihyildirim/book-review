@@ -12,6 +12,10 @@ gem 'sass-rails', '~> 5.0'
 gem 'simple_form', '~> 3.3', '>= 3.3.1'
 #bootstrap-sass
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+#devise
+gem 'devise', '~> 4.2'
+#paperclip
+gem 'paperclip', '~> 5.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
